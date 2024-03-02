@@ -7,9 +7,13 @@ public class app {
     public static void main(String[] args) {
 
         Scanner src = new Scanner(System.in);
+
+
         double numero1 = 0;
         double numero2 = 0;
         double numero3 = 0;
+
+        int opcion;
 
         Data data = new Data();
 
@@ -22,12 +26,33 @@ public class app {
         System.out.println("3. Ciclos");
         System.out.println("4. Arreglos");
         System.out.println("99.Salir");
+        System.out.println("ingrese una opcion");
 
-        // submenu operadores
 
-        System.out.println("Categoria Operadores");
-        System.out.println("1. Calcular área triángulo");
-        System.out.println("2. Sumar dos números");
+        opcion = src.nextInt();
+        switch (opcion){
+            case 1: {
+                System.out.println("Categoria Operadores");
+                System.out.println("1. Calcular área triángulo");
+                System.out.println("2. Sumar dos números");
+                System.out.println("ingrese una opcion");
+                opcion = src.nextInt();
+                switch (opcion) {
+                }
+                break;
+            }
+            case 2:{};
+            break;
+            case 3:{};
+            break;
+            case 99:{};
+            break;
+            default:
+                System.out.println("opcion no valida");
+                break;
+        }
+
+//         submenu operadores
 
         System.out.println("-------------------------------");
         System.out.println("1. Calcular el área de un triángulo");

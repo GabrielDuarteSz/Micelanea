@@ -17,7 +17,7 @@ public class app {
         Data data = new Data();
 
 
-        System.out.println("Ejercicio micelanea OPP Java");
+        System.out.println("Ejercicio miscelanea OPP Java");
         System.out.println("-----------------------------");
         System.out.println("Menu Principal");
         System.out.println("1. Operadores");
@@ -25,7 +25,7 @@ public class app {
         System.out.println("3. Ciclos");
         System.out.println("4. Arreglos");
         System.out.println("99.Salir");
-        System.out.println("ingrese una opcion");
+        System.out.println("Ingrese una opcion");
 
 
         opcion = src.nextInt();
@@ -81,7 +81,7 @@ public class app {
                     break;
                     case 5:{System.out.println("-------------------------------");
                         System.out.println("5.Area y perimetro de un cuadrado");
-                        System.out.println("Ingrese el lado del cadrado");
+                        System.out.println("Ingrese el lado del cuadrado");
                         numero1 = src.nextDouble();
                         System.out.println("El perimetro es  : " + data.perimetroCuadrado(numero1));
                         System.out.println("El area es : " +  data.areaCuadrado(numero1));
@@ -93,7 +93,7 @@ public class app {
                         numero1 = src.nextDouble();
                         System.out.println("Ingrese la altura del cilindro");
                         numero2 = src.nextDouble();
-                        System.out.println("El area del cilidro es  : " + data.areaCilindro(numero1, numero2) + "cm2");
+                        System.out.println("El area del cilindro es  : " + data.areaCilindro(numero1, numero2) + "cm2");
                         System.out.println("El volumen del cilindro es : " + data.volumenCilindro(numero1, numero2) + "cm3");
                         }
                     break;
@@ -124,7 +124,7 @@ public class app {
             case 99:{};
             break;
             default:
-                System.out.println("opcion no valida");
+                System.out.println("Opcion no valida");
                 break;
         }
 
